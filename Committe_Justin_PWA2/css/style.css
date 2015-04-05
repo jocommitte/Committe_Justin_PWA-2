@@ -1,0 +1,47 @@
+.backgroundImage{
+    position: absolute;
+    width: 100%;
+    height:760px;
+    top: 0px;
+    z-index: 1;
+}
+.content, #bottom{
+    position: relative;
+    z-index: 2500;
+}
+.c1,.c2,.c3{
+    float: left;
+}
+header{
+    height: 760px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    margin: 1em;
+}
+.navigation{
+    clear: both;
+    margin-left: 44%;
+    
+}
+.title{
+    font-family: 'EB Garamond', serif;
+    font-size: 7em;
+    color: white;
+    margin-bottom:0;
+}
+
+.nav > li{
+    float: left;
+    margin: 0 3em;
+    font-family: 'futura';
+    font-weight: 400;
+    font-size: 1.6em;
+}
+ul{
+    list-style-type: none;
+}
+
