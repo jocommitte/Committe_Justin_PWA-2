@@ -9,7 +9,7 @@
 	Your code should load your page templates into the container
 -->
 
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 
     <meta charset="utf-8">
@@ -22,90 +22,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- CSS concatenated and minified via ant build script-->
-    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- end CSS-->
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
     <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
-    <link href='http://ufonts.com/fonts/futura.html' title='Futura Font Download - ufonts.com'>Futura Font Download - ufonts.com</link>
+    <link href='http://ufonts.com/fonts/futura.html' title='Futura Font Download - ufonts.com'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
 </head>
 
-<body>
+<body id="contactBody">
 <div class="wrapper">
-    <div class="bgImage">
-        <img src="images/background.jpg" class="backgroundImage">
-    </div>
-    <div class='content'>
-        <header>
+    <header class="contactHead">
+        <div class='content'>
             <div class="logoTitle">
                 <h1 class="logo">
                     <a href="index.html">
-                        <img src="images/logo.jpg" alt="Lake Eola, Orlando.  Site of new development">
+                        <img src="img/logo.png" alt="Lake Eola, Orlando.  Site of new development">
                     </a>
                 </h1>
                 <h1 class="title">Cascada Properties LLC</h1>
             </div>
-            <div class="navigation">
-                <nav class="mainNav">
-                    <ul class="nav">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="dashboard.html">Dashboard</a>
-                        </li>
-                        <li>
-                            <a href="registration.html">Registration</a>
-                        </li>
-                    </ul>
-                </nav>
+            <nav class="navHome">
+                <ul class="navigationHome">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="registration.html">Registration</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="login">
+                <h2 class="signupHeading">
+                    Please enter your information to login.<br>
+                    Or click register to register and be added to our mailing list.
+                </h2>
             </div>
-        </header>
-    </div>
+        </div>
+    </header>
     <section id="bottom">
-        <div class="missionStatement">
-            <h3 id="statement">The Cascada Group, LLC is dedicated to creating luxurious urban living
-                environments, utilizing experience gained by its principals during more than thirty years of designing,
-                constructing and managing high end residential apartment communities.</h3>
+        <div class="contactBottom">
+            <div class="contactLeft">
+                <h2 id="contactHeadline">The Cascada Group<br>
+                    would be happy to help you with any questions you may have.<br>
+                    Thank you
+                </h2>
+                <p id="contactParagraph">Email: info@cascadapropertiesllc.com</p>
+            </div>
+            <div class="contactRight">
+                <img src="img/contactImage.jpg">
+            </div>
         </div>
         <div class="columns">
-            <div class="c1">
-                <a href="index.html">
-                    <img src="images/park1.jpg">
-                    <h3 class="propName">Home</h3>
+            <div class="c1 pics">
+                <a href="#">
+                    <img src="img/park1.jpg">
+                    <h3 class="propName">Sterling at the Park</h3>
                 </a>
             </div>
-            <div class="c2">
-                <a href="registration.html">
-                    <img src="images/paces2.jpg">
-                    <h3 class="propName">Register</h3>
+            <div class="c2 pics">
+                <a href="#">
+                    <img src="img/paces2.jpg">
+                    <h3 class="propName">Sterling at West Paces</h3>
                 </a>
             </div>
-            <div class="c3">
-                <a href="dashboard.html">
-                    <img src="images/2828red.jpg">
-                    <h3 class="propName">Dashboard</h3>
+            <div class="#">
+                <a href="2828.html">
+                    <img src="img/2828red.jpg">
+                    <h3 class="propName">2828 Peachtree</h3>
                 </a>
             </div>
         </div>
     </section>
     <footer>
         <div class="icons">
-            <img id="fb" src="images/fb.png">
-            <img id="ws" src="images/walkscore.png">
-            <img src="images/linkedin.png" id="li">
-            <img id="gp" src="images/google-plus-icon.png">
+            <a href="https://www.facebook.com/">
+                <img id="fb" src="img/fb.png">
+            </a>
+            <a href="https://www.walkscore.com/">
+                <img id="ws" src="img/walkscore.png">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="img/linkedin.png" id="li">
+            </a>
+            <a href="https://plus.google.com/">
+                <img id="gp" src="img/google-plus-icon.png">
+            </a>
+
+
+
         </div>
         <div class="footNote">
             <p>
-                Cascada Properties LLC<br>
+                The Cascada Group LLC<br>
                 info@cascadaproperties.com<br>
-                10330 Crescent Ridge Drive
+                Website Created by Committe Designs
             </p>
         </div>
         <div class="footRight">
             <p>
-                Copyright &copy 2015 Cascada Properties LLC
+                Copyright &copy 2015 The Cascada Group LLC
             </p>
         </div>
     </footer>
