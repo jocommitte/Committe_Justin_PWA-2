@@ -283,10 +283,6 @@ form{
     box-sizing: border-box;
 }
 
-html {
-    overflow-y: scroll;
-}
-
 
 a {
     text-decoration:none;
@@ -352,7 +348,19 @@ h1 {
     font-weight:300;
     margin:0 0 40px;
 }
+.toolTip{
+    display:none;
+    position:absolute;
+    border: 1px solid #333;
+    background-color:#000000;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px;
+    color: #fff;
+    font-size:12px Arial;
 
+}
 label {
     position: absolute;
     transform: translateY(6px);

@@ -29,7 +29,7 @@
 
 	<!-- end CSS-->
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
-
+	<script src="jquery-1.11.2.min.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 	<link href='http://ufonts.com/fonts/futura.html' title='Futura Font Download - ufonts.com'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
@@ -72,10 +72,10 @@
 					Or click register to register and be added to our mailing list.
 				</h2>
 				<form action="demo_form.asp" id="signIn">
-					UserName: <input type="text" name="username" id="userName"><br>
-					Password: <input type="password" name="password" id="password"><br>
-					<input type="submit" value="Login">
-					<input type="submit" value="Register">
+					 <input type="text" name="username" id="userName" placeholder="Username*" title="Please enter your username"/><br>
+					 <input type="password" name="password" id="password" placeholder="Password*" title="Please enter your password"/><br>
+					<input type="submit" value="Login" title="Login" required/>
+					<input type="submit" value="Register" title="Register" required/>
 				</form>
 			</div>
 		</div>
@@ -135,6 +135,7 @@
 
 <!-- jquery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="jquery-1.11.2.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
 <!-- plugins -->
